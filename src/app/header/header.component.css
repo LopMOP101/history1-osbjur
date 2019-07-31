@@ -1,0 +1,125 @@
+
+html{
+	margin:10px;}
+p{margin:10px;margin-bottom:15px}
+body{font-family:arial; font-size:11px; color:#343434;margin:0px;}
+h1{text-align:center;color:red;font-family:arial;font-size:25px;margin:0px;margin-bottom:25px}
+h2{color:blue;font-size:18px;margin:5px;margin-bottom:20px}
+
+a{font-size:20px;margin:15px;}
+
+
+.ic{
+	align:center;
+ }
+ 
+ url_td{
+	font-size:25px;
+	color:;
+ }
+ 
+div
+{
+background:#eeeee5;
+border:1px dashed #abab9a;
+padding:5px;
+font:8pt Tahoma;
+margin-bottom:15px;
+color:black;
+text-align:center;
+}
+
+.bl2
+{
+font-size:25px;	
+}
+
+.p_na
+{
+	font-size:20px;
+}
+
+.InnF
+{
+align:center;
+height:50%;
+width:50%	
+}
+
+.nav-table
+{
+	border-spacing:0 10px;
+	font-family:'Open Sans', sans-serif;
+	font-weight:bold;
+}
+
+.nav_t_td,.nav_t_main
+{
+	padding:10px 20px;
+	background:Red;
+	color:#F9C941;
+	border-right:2px solid;
+}
+.ssid-tb
+{
+	padding:5px 10px;
+	background:Red;
+	color:#F9C941;
+	border-right:2px solid;	
+}
+
+td:hover
+{
+	background: #786b59;  
+    color: #ffe; 
+}
+
+.innF{
+  position:relative;
+  border:1px solid red;
+  width:400px;
+  height:300px;
+  overflow:hidden;
+}
+
+.innF2{
+  position:relative;
+  border:1px solid red;
+  width:1200px;
+  height:1200px;
+  overflow:hidden;
+}
+
+img{
+  position:absolute;
+  top: 30%;
+  left: 30%;
+  transform: translate(-30%, -30%);
+}
+@media(min-width:600px)
+{
+p {
+		word-wrap: break-word;
+		font-size:8px;
+}
+
+html{
+
+}
+
+
+}
+
+@media(max-width:700px)
+{
+.nav_t_main
+,.nav_t_td
+{
+	display:table-row;
+}
+.innF2{
+  width:0px;
+  height:0px;
+  overflow:hidden;
+}
+}
